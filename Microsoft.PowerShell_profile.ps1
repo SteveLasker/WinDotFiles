@@ -5,3 +5,8 @@ function prompt
     Write-Host ("PS>") -nonewline -foregroundcolor Green -backgroundcolor Black
     return " "
 }
+function Docker_rm_all 
+{
+    docker rm -f /$(docker ps -a -q)
+}
+Set-Alias docker_rm_all docker_rm_all
