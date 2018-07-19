@@ -1,16 +1,6 @@
 {
 	"auths": {
-		"acrpartners.azurecr.io": {},
-		"bikeshare-exp.azurecr.io": {},
-		"bikesharingdev-exp.azurecr.io": {},
-		"dockertools.azurecr-test.io": {},
-		"dockertools.azurecr.io": {},
-		"http://dockertools.azurecr-test.io": {},
-		"https://index.docker.io/v1/": {},
-		"stevelas-exp.azurecr.io": {},
-		"stevelas.azurecr.io": {},
-		"tryacr.azurecr-test.io": {},
-		"tryacr.azurecr.io": {}
+		"demo42.azurecr.io": {}
 	},
 	"psFormat": "table {{.ID}}\\t{{.Image}}\\t{{.Ports}}\\t{{.Command}}\\t{{.Names}}",
 	"imagesFormat": "table {{.ID}}\\t{{.Repository}}\\t{{.Tag}}\\t{{.Size}}",
